@@ -78,9 +78,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="mx-auto w-full max-w-6xl px-6 pb-10 pt-4 text-xs text-[var(--color-fg-subtle)]">
-        © 컨빌 자동화 허브 · 항목 관리는 우측 상단{" "}
-        <span className="font-medium text-[var(--color-fg-muted)]">관리자</span>{" "}
-        탭에서.
+        © 컨빌 자동화 허브
       </footer>
     </>
   );
