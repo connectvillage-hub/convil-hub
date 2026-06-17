@@ -18,9 +18,9 @@ export interface HubItem {
 
 export const CATEGORY_ORDER: Category[] = [
   "이용안내",
+  "고객소통",
   "교회",
   "블로그",
-  "고객소통",
   "콘텐츠 제작",
 ];
 
