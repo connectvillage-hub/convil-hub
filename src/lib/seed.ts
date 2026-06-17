@@ -92,4 +92,20 @@ export const SEED_ITEMS: HubItem[] = [
     categories: ["콘텐츠 제작"],
     type: "스킬",
   },
+  {
+    id: "convil-design-guide",
+    name: "Convil Design 이용 가이드",
+    description: "Convil Design 개요 및 이용 가이드",
+    url: "https://connectvillage-hub.github.io/convil-guide/Convil%20Design%20Overview%20%26%20Guide.html",
+    categories: ["고객소통"],
+    type: "링크",
+  },
+  {
+    id: "convil-design-project-proceedings",
+    name: "Convil Design 프로젝트 진행 안내",
+    description: "Convil Design 프로젝트 진행 절차 안내",
+    url: "https://connectvillage-hub.github.io/convil-guide/Convil%20Design%20Project%20Proceedings.html",
+    categories: ["고객소통"],
+    type: "링크",
+  },
 ];
