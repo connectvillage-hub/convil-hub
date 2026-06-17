@@ -1,6 +1,7 @@
 export type ItemType = "링크" | "스킬" | "로컬";
 
 export type Category =
+  | "이용안내"
   | "교회"
   | "블로그"
   | "고객소통"
@@ -16,6 +17,7 @@ export interface HubItem {
 }
 
 export const CATEGORY_ORDER: Category[] = [
+  "이용안내",
   "교회",
   "블로그",
   "고객소통",
@@ -34,6 +36,7 @@ export const TYPE_STYLE: Record<
 };
 
 export const CATEGORY_STYLE: Record<Category, string> = {
+  "이용안내": "bg-slate-100 text-slate-700",
   "교회": "bg-rose-50 text-rose-700",
   "블로그": "bg-emerald-50 text-emerald-700",
   "고객소통": "bg-sky-50 text-sky-700",
