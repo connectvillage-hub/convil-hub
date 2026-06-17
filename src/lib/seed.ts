@@ -20,7 +20,7 @@ export const SEED_ITEMS: HubItem[] = [
   {
     id: "content-automation",
     name: "컨텐츠 응대 자동화",
-    description: "콘텐츠 자동 업로드 안내 페이지",
+    description: "컨텐츠 응대 자동화 안내 페이지",
     url: "https://connectvillage-hub.github.io/convil-content-automation/",
     categories: ["고객소통"],
     type: "링크",
