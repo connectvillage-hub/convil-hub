@@ -2,6 +2,22 @@ import type { HubItem } from "./types";
 
 export const SEED_ITEMS: HubItem[] = [
   {
+    id: "convil-design-manual-2026",
+    name: "2026 컨빌 디자인 시스템 메뉴얼",
+    description: "2026년 컨빌 디자인 시스템 매뉴얼 사이트",
+    url: "https://convil-manual-site.vercel.app/",
+    categories: ["내부 직원용"],
+    type: "링크",
+  },
+  {
+    id: "watermark-compress-tool",
+    name: "워터마크 & 용량 압축 사이트",
+    description: "이미지 워터마크 추가 및 용량 압축 도구",
+    url: "https://watermark-tool-sooty.vercel.app/",
+    categories: ["내부 직원용"],
+    type: "링크",
+  },
+  {
     id: "church-homepage",
     name: "교회 홈페이지",
     description: "컨빌 교회 공식 홈페이지 (v2)",
@@ -97,7 +113,7 @@ export const SEED_ITEMS: HubItem[] = [
     name: "Convil Design 이용 가이드",
     description: "Convil Design 개요 및 이용 가이드",
     url: "https://connectvillage-hub.github.io/convil-guide/Convil%20Design%20Overview%20%26%20Guide.html",
-    categories: ["이용안내"],
+    categories: ["★ 고객 이용안내"],
     type: "링크",
   },
   {
@@ -105,7 +121,7 @@ export const SEED_ITEMS: HubItem[] = [
     name: "Convil Design 프로젝트 진행 안내",
     description: "Convil Design 프로젝트 진행 절차 안내",
     url: "https://connectvillage-hub.github.io/convil-guide/Convil%20Design%20Project%20Proceedings.html",
-    categories: ["이용안내"],
+    categories: ["★ 고객 이용안내"],
     type: "링크",
   },
 ];
