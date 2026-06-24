@@ -18,6 +18,14 @@ export const SEED_ITEMS: HubItem[] = [
     type: "링크",
   },
   {
+    id: "interior-first-button-design-ai",
+    name: "인테리어 첫단추 ver.1 디자인 AI",
+    description: "인테리어 첫단추 디자인 AI 도구 (ver.1)",
+    url: "https://convil.aiapp.help/",
+    categories: ["내부 직원용"],
+    type: "링크",
+  },
+  {
     id: "church-homepage",
     name: "교회 홈페이지",
     description: "컨빌 교회 공식 홈페이지 (v2)",
